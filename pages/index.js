@@ -3,15 +3,15 @@ import styles from '../styles/Home.module.css';
 import '@fontsource/syne/variable.css';
 import { getAllPosts } from '../lib/api';
 import Layout from '../components/layout';
-import Posts from '../components/posts';
+// import Posts from '../components/posts';
 
 import { Container, Heading, Button, Text, Link, SimpleGrid, Grid, Box, Image, HStack } from '@chakra-ui/react';
 import { NftIcon, TokensIcon, StakingIcon, MarketplaceIcon, DexIcon, VestingIcon } from '../components/contractIcons';
 import { WritingIcon, AuditingIcon, PlanningIcon, FindingIcon, BuildingIcon, TreasuriesIcon } from '../components/helpIcons';
 
 const Home = ({ allPosts }) => {
-  const heroPost = allPosts[0];
-  const morePosts = allPosts.slice(1);
+  // const heroPost = allPosts[0];
+  // const morePosts = allPosts.slice(1);
   // console.log(allPosts);
 
   const ContractTypes = ({ children, name }) => {
@@ -120,8 +120,20 @@ const Home = ({ allPosts }) => {
               <Link href="https://codemakes.art/" isExternal color="black">
                 Code Makes Art
               </Link>
-              <Link href="https://rings.market/" isExternal color="black">
-                Rings for Loot
+              <Link href="https://opensea.io/collection/ben-mezrich-bitcoin-and-billionaires" isExternal color="black">
+                Bitcoin & Billionaires
+              </Link>
+              <Link href="https://www.npmjs.com/package/token-ping" isExternal color="black">
+                Token Ping
+              </Link>
+              <Link href="https://www.watchfaces.world/" isExternal color="black">
+                Watchfaces
+              </Link>
+              <Link href="https://button.lol/" isExternal color="black">
+                Button LOL
+              </Link>
+              <Link href="https://github.com/w1nt3r-eth/hot-chain-svg" isExternal color="black">
+                Hot Chain SVG
               </Link>
             </SimpleGrid>
           </Container>

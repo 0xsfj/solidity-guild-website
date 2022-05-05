@@ -4,7 +4,7 @@ import '@fontsource/syne/700.css';
 import '@fontsource/syne/800.css';
 import '@fontsource/syne/variable.css';
 
-const theme = extendTheme({
+export const theme = extendTheme({
   components: {
     // Button: {
     //   variants: {
