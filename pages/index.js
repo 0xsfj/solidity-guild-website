@@ -135,6 +135,12 @@ const Home = ({ allPosts }) => {
               <Link href="https://github.com/w1nt3r-eth/hot-chain-svg" isExternal color="black">
                 Hot Chain SVG
               </Link>
+              <Link href="https://www.0xsplits.xyz/" isExternal color="black">
+                0xSplits
+              </Link>
+              <Link href="https://opensea.io/collection/runes-of-ethereum" isExternal color="black">
+                Runes of Ethereum
+              </Link>
             </SimpleGrid>
           </Container>
         </Box>
@@ -218,6 +224,9 @@ const Home = ({ allPosts }) => {
               </Link>
               <Link href="https://twitter.com/w1nt3r_eth" isExternal color="black">
                 @w1nt3r
+              </Link>
+              <Link href="https://twitter.com/0xSplits" isExternal color="black">
+                @0xSplits
               </Link>
             </SimpleGrid>
           </Container>
